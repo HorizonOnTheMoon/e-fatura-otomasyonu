@@ -17,7 +17,7 @@ pip install pandas requests
 ## Kullanım
 ## 1- Excel Dosyasını Hazırlayın:
 
-Excel dosyanızın C:/Users/kufu-/Desktop/siparisler.xlsx path'inde olduğundan emin olun.
+Excel dosyanızın belirlediğniz path'inde olduğundan emin olun.
 Dosya sütunları: "Vergi Kimlik Numarası", "Alıcı - Fatura Adresi", "Ürün Adı", "Faturalanacak Tutar", "Adet", "Fatura Adresi".
 Kodun İçindeki Kullanıcı Bilgilerini Güncelleyin:
 
