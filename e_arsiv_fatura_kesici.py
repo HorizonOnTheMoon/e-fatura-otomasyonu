@@ -5,7 +5,7 @@ from datetime import datetime
 import pandas as pd
 
 
-def dosya_oku(path = "C:/Users/kufu-/Desktop/siparisler.xlsx"):
+def dosya_oku(path):
     file_path = path
 
     df = pd.read_excel(file_path)
