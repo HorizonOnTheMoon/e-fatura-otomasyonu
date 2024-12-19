@@ -63,7 +63,7 @@ def download_file(token,ettn,isim):
     response = requests.get(url, headers=headers, timeout=10)
 
     if response.status_code == 200:
-        PATH = "C:/Users/kufu-/Desktop/deneme/"
+        PATH = "path"
         zip_file_path = f"{PATH}{ettn}.zip"  # İndirilecek zip dosyasının yolu
         with open(zip_file_path, "wb") as f:
             f.write(response.content)
